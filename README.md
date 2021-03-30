@@ -6,24 +6,24 @@ It generates multiple 2D Metaballs that move around a closed space, being render
 
 ## Usage
 
-Built with Unity 2019.4; in order to use the project, open it in Unity, load [Scenes/Main](master/Assets/Scenes/Main.unity) and hit the *Play* button. There are several options that you can customize out-of-the-box from the Inspector, under the *MetaballGenerator* script of the *MetaballGenerator* GameObject in the hierarchy:
+Built with Unity 2019.4; in order to use the project, open it in Unity, load [Scenes/Main](Assets/Scenes/Main.unity) and hit the *Play* button. There are several options that you can customize out-of-the-box from the Inspector, under the *MetaballGenerator* script of the *MetaballGenerator* GameObject in the hierarchy:
 * **Num Metaballs:** the amount of Metaballs that will be used for the experiment.
 * **Grid Resolution:** the number of samples to be used for the Marching Squares algorithm.
 
-![](master/RepositoryResources/Recordings/Low_Resolution_No_Smooth.gif)
+![](RepositoryResources/Recordings/Low_Resolution_No_Smooth.gif)
 
 * **Boundaries:** the size of the experiment space.
 * **Metaball Speed**: the speed at which the Metaballs will move. It includes a small random offset so that not all balls move at the same speed.
 * **Metaball Radius**: the size (radius) of each Metaball. It also includes a random offset to obtain balls of multiple sizes.
 * **Smooth:** a toggle to determine whether to apply the interpolation phase of Jamie Wong's algorithm.
 
-![](master/RepositoryResources/Recordings/Low_Resolution_Smooth.gif)
+![](RepositoryResources/Recordings/Low_Resolution_Smooth.gif)
 
-![](master/RepositoryResources/Recordings/High_Resolution.gif)
+![](RepositoryResources/Recordings/High_Resolution.gif)
 
 * **Include Rectangle:"** a toggle to determine if you want to include an additional rectangle to the experiment. I developed myself a "Metarectangle" that integrates with the experiment and merges with the Metaballs. When toggled, it will be added to the mesh, and you can move it around dragging it in the Unity *Scene* view.
 
-![](master/RepositoryResources/Recordings/Rectangle.gif)
+![](RepositoryResources/Recordings/Rectangle.gif)
 
 ## About
 
